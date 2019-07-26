@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <title>Crystal Collector</title>
+
+
+    <!--Linking CSS style sheet-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+  </head> 
+
+  <body>
+
+    <div class = "header">
+        <h1>Welcome to Crystal Collector!</h1>
+        <br>
+    </div>
+
+    <div class = "instructions">
+        <h2>How to play:</h2>
+        <p>You will be given a random number at the start of the game.</p>
+        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+        <p>You win the game by matchng your total score to the random number. You will lose the game if your total score goes above the random number.</p>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <p>Each time the game starts, the game will change the values of each crystal.</p>
+    </div>
+
+    <div class = "computerNumber">
+        <h2>Number to Get:
+            <span id = "randomNumber"></span>
+        </h2>
+    </div>
+
+    <div class = "scoreboard">
+        <h2>Wins:
+            <span id= "numberWins"></span>
+            <br>
+            Losses:
+            <span id= "numberLosses"></span>
+        </h2>
+        
+
+    </div>
+
+    <div class = "jewels">
+        <img src ="assets/images/diamond.PNG" class = jewelImage id="one" alt="Diamond">
+        <img src ="assets/images/magenta.PNG" class = jewelImage id="two" alt="Magenta">
+        <img src = "assets/images/pearl.PNG" class = jewelImage id="three" alt="Pearl">
+        <img src = "assets/images/turquoise.PNG" class = jewelImage id="four" alt="Turquoise">
+    </div>
+
+    <div class ="playerTotal">
+        <h2>Your score is:
+            <span id ="finalTotal"></span>
+        </h2>
+    </div>
+
+    <!--Linking the jquery library-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--Linking our JS document-->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+</body>
+</html>

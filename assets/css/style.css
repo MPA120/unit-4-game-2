@@ -1,0 +1,87 @@
+body {
+    background-image: url("../images/floor-tile.png");
+  }
+
+h1{
+    text-align:center;
+    background: black;
+    color: white;
+    padding-top: 30px !important;
+    padding-bottom: 30px;
+}
+
+.instructions{
+    font-style: italic;
+    margin-top: -50px;
+}
+.computerNumber{
+    background: black;
+    color: white;
+    width: 300px;
+    padding-bottom: 100px;
+    margin-bottom: 20px;
+    float: left;
+    border-style: groove;
+    border-color: white;
+    border-width: thick;
+    margin-right: 5px;
+}
+
+.scoreboard{
+    background: black;
+    color: white;
+    width: 300px;
+    padding-bottom: 73px;
+    margin-bottom: 20px;
+    border-style: groove;
+    border-color: white;
+    border-width: thick;
+    float: left;
+    
+
+    
+}
+
+.jewels{
+    clear: both;
+    margin-bottom: 20px;
+}
+
+#one{
+    
+    border-style: groove;
+    border-width:thick;
+
+}
+
+#two{
+    
+    border-style: groove;
+    border-width:thick;
+
+}
+
+#three{
+    
+    border-style: groove;
+    border-width:thick;
+}
+
+#four{
+    
+    border-style: groove;
+    border-width:thick;
+}
+
+.playerTotal{
+    background-color:black;
+    color:white;
+    width: 300px;
+    padding-bottom: 100px;
+    margin-bottom: 20px;
+    border-style: groove;
+    border-color: white;
+    border-width: thick;
+}
+
+
